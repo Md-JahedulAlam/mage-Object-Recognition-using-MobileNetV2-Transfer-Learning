@@ -88,8 +88,8 @@ scratch.
 
 - **Optimizer**: Adam
 - **Loss**: categorical cross-entropy
-- **Epochs**: up to 105, with:
-  - `EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)`
+- **Epochs**: up to 20, with:
+  - `EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True)`
   - `ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=3, min_lr=1e-6)`
 - Training and validation accuracy/loss are tracked and plotted per epoch.
 
