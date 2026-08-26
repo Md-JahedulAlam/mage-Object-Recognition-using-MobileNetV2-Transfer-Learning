@@ -116,14 +116,37 @@ scratch.
 
 ## Output Preview
 
-> Run the notebook and drop the corresponding screenshots/images here so the
-> project is understandable at a glance.
+**Dataset**: 10 classes — bear, bird, crocodile, dogs, elephant, fungus,
+goldfish, jellyfish, leopard, monkey (3200 train / 800 validation / 1000 test
+images).
 
-- **Training curves** — accuracy and loss over epochs (train vs. validation):
-  `![Accuracy/Loss curves](path/to/accuracy_loss_curves.png)`
-- **Confusion matrix** on the test set:
-  `![Confusion matrix](path/to/confusion_matrix.png)`
-- **Sample prediction** — test image with predicted class and confidence:
-  `![Sample prediction](path/to/sample_prediction.png)`
-- **Test accuracy / loss**: fill in after running, e.g. `Test Accuracy: 0.XX`,
-  `Test Loss: 0.XX`.
+**Test results**: `Test Accuracy: 0.9590` · `Test Loss: 0.1517`
+
+Per-class precision/recall/F1 (test set):
+
+| Class     | Precision | Recall | F1   |
+|-----------|-----------|--------|------|
+| bear      | 0.94      | 0.94   | 0.94 |
+| bird      | 0.97      | 0.95   | 0.96 |
+| crocodile | 0.96      | 0.98   | 0.97 |
+| dogs      | 0.88      | 0.98   | 0.93 |
+| elephant  | 0.97      | 0.92   | 0.94 |
+| fungus    | 0.94      | 0.97   | 0.96 |
+| goldfish  | 0.99      | 0.99   | 0.99 |
+| jellyfish | 0.99      | 0.98   | 0.98 |
+| leopard   | 0.99      | 1.00   | 1.00 |
+| monkey    | 0.97      | 0.88   | 0.92 |
+
+**Training curves** (accuracy and loss, train vs. validation):
+
+![Accuracy curve](images/accuracy_curve.png)
+![Loss curve](images/loss_curve.png)
+
+**Confusion matrix** on the test set:
+
+![Confusion matrix](images/confusion_matrix.png)
+
+**Sample prediction** — test image (true label: bird), model predicted
+`bird` with 99.98% confidence:
+
+![Sample prediction](images/sample_prediction.png)
