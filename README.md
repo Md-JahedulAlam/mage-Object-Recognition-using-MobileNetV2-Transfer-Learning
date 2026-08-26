@@ -21,23 +21,10 @@ Tested with:
 
 ### Dataset
 
-Uses the **ImageNet-small dataset** (Kaggle: `mdjahed0/imagenet-small-dataset-for-alexnet`),
-organized in the standard `flow_from_directory` format:
+Uses the **ImageNet-small dataset** (Kaggle: `(https://www.kaggle.com/datasets/shukdevdatta/imagenetsmall)`),
+organized in the standard `flow_from_directory`
 
-```
-training_set/
-  class_1/
-    image1.jpg
-    image2.jpg
-    ...
-  class_2/
-    ...
-test_set/
-  class_1/
-    ...
-  class_2/
-    ...
-```
+
 
 If running on Kaggle, attach the dataset via **Add Data** and the notebook's
 `train_path` / `test_path` variables will resolve automatically. If running
