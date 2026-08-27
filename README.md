@@ -134,6 +134,6 @@ Per-class precision/recall/F1 (test set):
 ![Confusion matrix](images/confusion_matrix.png)
 
 **Sample prediction** — test image (true label: bird), model predicted
-`bird` with 99.98% confidence:
+`bird` with 100.00% confidence:
 
 ![Sample prediction](images/sample_prediction.png)
