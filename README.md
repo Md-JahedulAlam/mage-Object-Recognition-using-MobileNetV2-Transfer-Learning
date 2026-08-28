@@ -4,11 +4,10 @@ Multi-class image classification on the ImageNet-small dataset using transfer
 learning with MobileNetV2 (ImageNet-pretrained, frozen base + trained
 classification head).
 
-## Setup Instructions
-
 - **Kaggle notebook**: https://www.kaggle.com/code/mdjahed0/image-object-recognition-using-mobilenetv2-trans
 - **Dataset**: https://www.kaggle.com/datasets/shukdevdatta/imagenetsmall
 
+## Setup Instructions
 ### Dependencies
 
 ```bash
