@@ -6,6 +6,9 @@ classification head).
 
 ## Setup Instructions
 
+- **Kaggle notebook**: https://www.kaggle.com/code/mdjahed0/image-object-recognition-using-mobilenetv2-trans
+- **Dataset**: https://www.kaggle.com/datasets/shukdevdatta/imagenetsmall
+
 ### Dependencies
 
 ```bash
